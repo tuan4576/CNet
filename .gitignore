@@ -1,0 +1,30 @@
+# Thư mục build và file biên dịch
+bin/
+obj/
+
+# File khóa dự án (không cần đẩy lên Git)
+*.suo
+*.user
+*.cache
+*.vs/
+
+# Thư mục xuất bản (publish)
+publish/
+out/
+
+# Các file tạm của Visual Studio, Rider, và các IDE khác
+.vscode/
+.idea/
+*.log
+
+# Gói NuGet và cache
+*.nupkg
+packages/
+.nuget/
+
+# File debug
+*.pdb
+
+# File môi trường
+.env
+.env.local

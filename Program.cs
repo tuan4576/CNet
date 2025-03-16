@@ -8,7 +8,9 @@ class Program {
         Console.WriteLine("Xin chao");
     }
     static void Main() {
-        So(5,6);
-        Inra();
+        // So(5,6);
+        // Inra();
+        Car test = new Car();
+        test.car();
     }
 }

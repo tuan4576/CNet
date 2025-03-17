@@ -1,16 +1,8 @@
-﻿using System;
-// class Test{
-//     public void Inra(){
-//         Console.WriteLine("Xin chao");
-//     }
-// }
-class Program {
-    static int So(int a, int b){
-        return a+b;
-    }
+﻿class Program {
     static void Main() {
-        So(2,5);
-        // Test t = new Test();
-        // t.Inra();
+        // Car test = new Car();
+        // test.car();
+        Constructe con = new Constructe("tuan","red",39);
+        Console.WriteLine("màu là " + con.color);
     }
 }
